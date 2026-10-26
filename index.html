@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#162638" />
+  <meta name="description" content="Nil Albüm — el işçiliğiyle hazırlanan düğün albümleri ve sinematik animasyonlu dijital albüm deneyimleri." />
+  <meta property="og:title" content="Nil Albüm — Hikâyeniz, zamansız bir albüme" />
+  <meta property="og:description" content="El işçiliğiyle hazırlanan düğün albümleri ve sinematik dijital albüm deneyimleri." />
+  <meta property="og:image" content="images/hero-rain.webp" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+  <title>Nil Albüm — Hikâyeniz, zamansız bir albüme</title>
+</head>
+<body>
+<div class="site-shell" id="root">
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+
+  <header class="site-header" id="siteHeader">
+    <a href="#top" class="header-logo" aria-label="Nil Albüm ana sayfa"><span data-logo="light"></span></a>
+    <nav class="desktop-nav" aria-label="Ana menü">
+      <a href="#deneyim">Deneyim</a>
+      <a href="#koleksiyonlar">Koleksiyonlar</a>
+      <a href="#hikaye">Yaklaşım</a>
+      <a href="#surec">Süreç</a>
+    </nav>
+    <a class="header-cta" href="#teklif">Ön görüşme <i data-icon="arrow-right" data-size="15"></i></a>
+    <button class="menu-toggle" id="menuOpen" aria-label="Menüyü aç" aria-expanded="false"><i data-icon="menu"></i></button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <button class="mobile-menu__close" id="menuClose" aria-label="Menüyü kapat"><i data-icon="x"></i></button>
+    <span data-logo="light"></span>
+    <nav aria-label="Mobil menü">
+      <a href="#deneyim"><span>01</span>Deneyim</a>
+      <a href="#koleksiyonlar"><span>02</span>Koleksiyonlar</a>
+      <a href="#hikaye"><span>03</span>Yaklaşım</a>
+      <a href="#surec"><span>04</span>Süreç</a>
+      <a href="#teklif"><span>05</span>Ön görüşme</a>
+    </nav>
+    <p>Fotoğraflarınız, zamansız bir hikâyeye.</p>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__grid-lines" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="eyebrow">Düğün albümü atölyesi · İstanbul</p>
+        <h1 id="hero-title">
+          <span class="hero__line"><span>Bir güne değil,</span></span>
+          <span class="hero__line hero__line--accent"><span>bir ömre</span></span>
+          <span class="hero__line"><span>tasarlanır.</span></span>
+        </h1>
+        <p class="hero__intro">Düğün fotoğraflarınızı el işçiliğiyle hazırlanan albümlere ve sinematik dijital hikâyelere dönüştürüyoruz.</p>
+        <div class="hero__actions">
+          <a class="button button--gold" href="#deneyim">Albümü deneyimle <i data-icon="arrow-down" data-size="17"></i></a>
+          <a class="text-link text-link--light" href="#koleksiyonlar">Koleksiyonları keşfet <i data-icon="arrow-right" data-size="16"></i></a>
+        </div>
+      </div>
+      <div class="hero__visual" aria-label="Düğün albümünden fotoğraflar">
+        <figure class="hero-photo hero-photo--main"><img src="images/hero-rain.webp" alt="Yağmur altında birbirine yaklaşan gelin ve damat" /></figure>
+        <figure class="hero-photo hero-photo--small"><img src="images/veil-closeup.webp" alt="Duvağıyla gülümseyen gelin" /></figure>
+        <span class="hero__caption">Kâğıda, ışığa ve size dair.</span>
+      </div>
+      <div class="hero-seal" aria-hidden="true">
+        <svg viewBox="0 0 120 120">
+          <defs><path id="sealPath" d="M60,60 m-43,0 a43,43 0 1,1 86,0 a43,43 0 1,1 -86,0" /></defs>
+          <text><textPath href="#sealPath">NİL ALBÜM · HİKÂYENİZİ SAKLAR · </textPath></text>
+        </svg>
+        <span data-logo="light-compact"></span>
+      </div>
+      <a href="#deneyim" class="hero__scroll" aria-label="Albüm deneyimine kaydır"><span>Keşfet</span><i data-icon="arrow-down" data-size="16"></i></a>
+    </section>
+
+    <section class="album-experience section-light" id="deneyim" aria-labelledby="album-title">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow eyebrow--dark">Dijital albüm deneyimi</p>
+        <h2 id="album-title">Sayfalar çevrilsin,<br /><em>hikâye aksın.</em></h2>
+        <p>Her çiftin ritmi farklı. Albümünüzün akışını, geçişlerini ve müziğini bu ritme göre kurguluyoruz.</p>
+      </div>
+      <div class="album-stage" data-reveal>
+        <div class="album-spread" id="albumSpread" aria-live="polite">
+          <div class="album-page album-page--left">
+            <img id="spreadLeft" src="images/veil-closeup.webp" alt="I. Yakınlık albüm sayfası" />
+            <span id="spreadChapter">I. Yakınlık</span>
+          </div>
+          <div class="album-spine" aria-hidden="true"></div>
+          <div class="album-page album-page--right">
+            <img id="spreadRight" src="images/editorial-couple.webp" alt="Bakışların anlattığı hikâye" />
+            <span id="spreadNote">Bakışların anlattığı hikâye</span>
+          </div>
+        </div>
+        <div class="album-controls">
+          <button id="spreadPrev" aria-label="Önceki sayfa"><i data-icon="arrow-left"></i></button>
+          <div class="album-progress" id="albumProgress" aria-label="Albüm sayfaları"></div>
+          <span class="album-count" id="albumCount">01 / 03</span>
+          <button class="autoplay-button" id="autoplay" aria-label="Albümü otomatik oynat"></button>
+          <button id="spreadNext" aria-label="Sonraki sayfa"><i data-icon="arrow-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="collections section-light" id="koleksiyonlar" aria-labelledby="collections-title">
+      <div class="collections__header" data-reveal>
+        <div>
+          <p class="eyebrow eyebrow--dark">Koleksiyonlar</p>
+          <h2 id="collections-title">Sizin kadar<br />özgül üç ifade.</h2>
+        </div>
+        <p>Fiziksel albümün dokusunu, dijital albümün hareketini aynı özenle tasarlıyoruz. Detaylar sizin hikâyenize göre şekilleniyor.</p>
+      </div>
+      <div class="collection-list" id="collectionList"></div>
+    </section>
+
+    <section class="manifesto" id="hikaye" aria-labelledby="manifesto-title">
+      <div class="manifesto__image"><img src="images/editorial-couple.webp" alt="Editorial tarzda siyah beyaz düğün portresi" /></div>
+      <div class="manifesto__content" data-reveal>
+        <p class="eyebrow">Nil Albüm yaklaşımı</p>
+        <h2 id="manifesto-title">Fotoğrafı değil,<br /><em>duyguyu</em> merkeze alırız.</h2>
+        <p>Bir albümü güzel yapan yalnızca kâğıdı ya da kapağı değil; doğru fotoğrafın, doğru anda gelmesidir. Bu yüzden her projeye editoryal bir kurguyla başlarız.</p>
+        <ul>
+          <li><span>01</span><div><strong>Editoryal seçki</strong><p>Günün tekrarlarını değil, hikâyeyi taşıyan kareleri bir araya getiririz.</p></div></li>
+          <li><span>02</span><div><strong>Kişiye özel tasarım</strong><p>Renk, ritim ve kapak detayları çiftin karakterine göre belirlenir.</p></div></li>
+          <li><span>03</span><div><strong>Fiziksel + dijital bütünlük</strong><p>Kitaplığınızda duran albümle telefonunuzda akan hikâye aynı dili konuşur.</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="craft section-light" aria-labelledby="craft-title">
+      <div class="craft__title" data-reveal>
+        <p class="eyebrow eyebrow--dark">Detaylarda saklı</p>
+        <h2 id="craft-title">Dokunabildiğiniz<br />zanaat.</h2>
+      </div>
+      <figure class="craft__large" data-reveal><img src="images/album-open.webp" alt="Açık, geniş düğün fotoğraf albümü" loading="lazy" /><figcaption>Kesintisiz açılım · Panoramik sayfalar</figcaption></figure>
+      <figure class="craft__small" data-reveal><img src="images/album-stack.webp" alt="Zarif kapaklı albümler" loading="lazy" /><figcaption>Kapak, kâğıt ve kutu uyumu</figcaption></figure>
+      <p class="craft__note" data-reveal>Her malzeme, fotoğraflarınızın renklerine ve albümün kullanım biçimine göre seçilir.</p>
+    </section>
+
+    <section class="process" id="surec" aria-labelledby="process-title">
+      <div class="process__intro" data-reveal>
+        <p class="eyebrow">Birlikte, dört adımda</p>
+        <h2 id="process-title">İlk kareden<br />son dokunuşa.</h2>
+        <a href="#teklif" class="text-link text-link--light">Projenizi anlatın <i data-icon="arrow-right" data-size="16"></i></a>
+      </div>
+      <ol class="process__list">
+        <li data-reveal><span>01</span><strong>Tanışma</strong><p>Hikâyenizi, düğün gününüzü ve hayal ettiğiniz albümü dinleriz.</p></li>
+        <li data-reveal><span>02</span><strong>Seçki &amp; kurgu</strong><p>Fotoğrafları duygusal akışa göre sıralar, sayfa tasarımını hazırlarız.</p></li>
+        <li data-reveal><span>03</span><strong>Onay &amp; üretim</strong><p>Dijital prova üzerinden birlikte inceler, son dokunuşları yaparız.</p></li>
+        <li data-reveal><span>04</span><strong>Teslim</strong><p>Fiziksel albümünüzü ve animasyonlu dijital sürümünüzü teslim ederiz.</p></li>
+      </ol>
+    </section>
+
+    <section class="quote section-light" id="teklif" aria-labelledby="quote-title">
+      <div class="quote__intro" data-reveal>
+        <p class="eyebrow eyebrow--dark">Hikâyenizle başlayalım</p>
+        <h2 id="quote-title">Albümünüzü<br />birlikte kurgulayalım.</h2>
+        <p>Formu doldurun; görüşmeye hazır, paylaşılabilir bir ön görüşme özeti oluşturalım.</p>
+        <div class="quote__promise"><i data-icon="check" data-size="18"></i><span>Bu araç yalnızca özet hazırlar. Bilgileriniz gönderilmez veya saklanmaz.</span></div>
+      </div>
+      <form class="quote-form" id="quoteForm" data-reveal>
+        <label><span>İsimleriniz *</span><input name="couple" required placeholder="Örn. Nil &amp; Deniz" /></label>
+        <div class="form-row">
+          <label><span>Düğün tarihi</span><input name="date" type="date" /></label>
+          <label><span>Şehir *</span><input name="city" required placeholder="Örn. İzmir" /></label>
+        </div>
+        <label><span>İlgilendiğiniz koleksiyon</span>
+          <select name="collection" id="collectionSelect">
+            <option>Léger</option><option>Nocturne</option><option>Héritage</option><option>Kararsızım, birlikte seçelim</option>
+          </select>
+        </label>
+        <label><span>Hayalinizdeki albümü anlatın</span><textarea name="note" rows="3" placeholder="Kapak dokusu, sayfa sayısı, dijital albüm beklentisi…"></textarea></label>
+        <button class="button button--navy" type="submit">Ön görüşme özeti oluştur <i data-icon="arrow-right" data-size="17"></i></button>
+      </form>
+      <div class="summary" id="summary" role="status" hidden>
+        <div><strong>Özetiniz hazır.</strong><button type="button" id="summaryCopy"></button></div>
+        <pre id="summaryText"></pre>
+        <button type="button" class="summary__close" id="summaryClose" aria-label="Özeti kapat"><i data-icon="x" data-size="18"></i></button>
+      </div>
+    </section>
+
+    <section class="faq section-light" aria-labelledby="faq-title">
+      <h2 id="faq-title" data-reveal>Merak edilenler</h2>
+      <div class="faq__list" data-reveal>
+        <details><summary>Fiziksel ve dijital albümü birlikte alabilir miyiz?<i data-icon="plus"></i></summary><p>Evet. Léger ve Héritage fiziksel albüm deneyimini, Nocturne ise sinematik dijital anlatımı temsil eder. Koleksiyonları projenize göre birlikte kurgulayabiliriz.</p></details>
+        <details><summary>Tasarımı teslimden önce görebilir miyiz?<i data-icon="plus"></i></summary><p>Evet. Sayfa düzeni ve dijital geçişler, üretim öncesinde dijital prova olarak incelenir. Onayınız sonrasında üretim aşamasına geçilir.</p></details>
+        <details><summary>Fotoğraf seçkisini bizim yapmadığımız durumda yardımcı oluyor musunuz?<i data-icon="plus"></i></summary><p>Editoryal seçki hizmeti bunun için var. Fotoğraf arşivinizden hikâyeyi taşıyan kareleri belirleyip bütünlüklü bir akış oluşturuyoruz.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <span data-logo="light"></span>
+      <p>Bir günlük ışığı,<br />bir ömürlük hikâyeye.</p>
+      <a href="#top" class="back-top" aria-label="Sayfanın başına dön"><i data-icon="arrow-left"></i></a>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year">2026</span> Nil Albüm</span>
+      <nav aria-label="Alt menü"><a href="#koleksiyonlar">Koleksiyonlar</a><a href="#surec">Süreç</a><a href="#teklif">Ön görüşme</a></nav>
+      <span>Düğün albümü atölyesi</span>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <div class="collection-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" id="collectionModal">
+      <button class="modal-close" id="modalClose" aria-label="Koleksiyon detayını kapat"><i data-icon="x"></i></button>
+      <div class="collection-modal__image"><img id="modalImage" alt="" /></div>
+      <div class="collection-modal__copy">
+        <p class="eyebrow">Nil Albüm koleksiyonu</p>
+        <h2 id="modal-title"></h2>
+        <p class="modal-subtitle" id="modalSubtitle"></p>
+        <p id="modalDescription"></p>
+        <ul id="modalDetails"></ul>
+        <a class="button button--gold" href="#teklif" id="modalCta">Bu koleksiyonla görüş <i data-icon="arrow-right" data-size="16"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
