@@ -310,7 +310,7 @@
   if (window.ScrollTrigger) gsap.registerPlugin(window.ScrollTrigger)
 
   if (window.Lenis) {
-    lenis = new window.Lenis({ duration: 1.05, smoothWheel: true })
+    lenis = new window.Lenis({ lerp: 0.18, smoothWheel: true, wheelMultiplier: 1.1 })
     if (window.ScrollTrigger) lenis.on('scroll', window.ScrollTrigger.update)
     gsap.ticker.add(function (time) { lenis.raf(time * 1000) })
     gsap.ticker.lagSmoothing(0)
@@ -321,7 +321,7 @@
         var target = id === '#top' ? 0 : document.querySelector(id)
         if (target === null) return
         e.preventDefault()
-        lenis.scrollTo(target, { offset: id === '#top' ? 0 : -80 })
+        lenis.scrollTo(target, { offset: id === '#top' ? 0 : -80, duration: 0.9 })
       })
     })
   }
